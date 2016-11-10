@@ -1,0 +1,185 @@
+@media (max-width: 1024px) {
+  .box {
+    max-height: 768px;
+  }
+  .head {
+    min-height: 768px;
+  }
+
+  .header__devis {
+    margin-top: 200px;
+  }
+}
+
+@media (max-width: 950px) {
+  .center {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+}
+
+@media (max-width: 700px) {
+  .box {
+    max-height: 400px;
+  }
+
+  .head {
+    min-height: 100%;
+  }
+
+  .header__devis {
+    margin-top: 100px;
+  }
+
+  .header__title {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+
+  .title__text {
+    font-size: 18px;
+  }
+
+  .head__but {
+    margin-top: 20px;
+    width: 151px;
+    height: 44px;
+    line-height: 40px;
+  }
+
+  .content {
+    margin-top: 80px;
+  }
+
+  .peace, .free, .simple {
+    flex: 1 100%;
+    margin-top: 20px;
+  }
+
+  .more {
+    margin-top: 15px;
+  }
+
+  .content__up-text {
+    margin-top: 15px;
+    text-align: justify;
+  }
+
+  .content__down {
+    margin-top: 20px;
+  }
+
+  .imac, .portfolio {
+    flex: 1 100%;
+    text-align: center;
+  }
+
+  .imac {
+    display: flex;
+  }
+
+  .portfolio {
+    margin-top: 20px;
+  }
+
+  .our__team {
+    margin-top: 40px;
+  }
+
+  .imac__pics {
+    position: relative;
+    margin: 0 auto;
+    background-size: contain;
+    right: 0;
+  }
+
+  .team__title {
+    text-align: center;
+  }
+
+  .team__content {
+    flex: 1 100%;
+    justify-content: center;
+  }
+
+  .team__photo, .team__person {
+    flex: 1;
+    max-width: 50%;
+  }
+
+}
+
+@media (max-width: 540px) {
+  .menu {
+    width: 100%;
+    text-align: center;
+  }
+
+  .menu__item {
+    margin-right: 15px;
+  }
+
+  .header__title {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .title__text {
+    font-size: 17px;
+    text-align: center;
+    color: #f0454c;
+  }
+
+  .head__but {
+    margin: 40px auto;
+  }
+
+  .content {
+    margin-top: 40px;
+  }
+
+  h2,
+  h3 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+
+  .portfolio {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 371px) {
+  .imac {
+    min-height: 230px;
+  }
+
+  .menu__item .menu__link {
+    display: none;
+  }
+
+  .menu__item-one .menu__link{
+    display: block;
+    color: #f0454c;
+  }
+
+  .menu__item-one{
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .creature {
+    line-height: 30px;
+    text-align: center;
+  }
+}
+
+

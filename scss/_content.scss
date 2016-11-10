@@ -1,0 +1,199 @@
+.content {
+  max-width: 100%;
+  min-height: 100%;
+  margin: 50px auto;
+  background: #ffffff;
+}
+
+.content__up {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.peace, .free, .simple {
+  flex: 1;
+
+}
+
+.content__up-title {
+  font-family: Montserrat, Verdana, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #465065;
+}
+
+.content__up-text {
+  color: #9aa0ab;
+  font-family: OpenSans, Verdana, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-top: 30px;
+}
+
+.more {
+  display: block;
+  color: #fa5c65;
+  font-family: Montserrat, Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+h2 {
+  font-family: Montserrat, Verdana, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  text-transform: uppercase;
+  color: #314a5b;
+}
+
+.content__down {
+  min-height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.imac, .portfolio {
+  flex: 1;
+}
+
+.imac {
+
+  min-height: 301px;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.imac__pics {
+  width: 500px;
+  min-height: 100%;
+  background: url("../img/MacBook.jpg") no-repeat;
+  position: absolute;
+  right: 100px;
+}
+
+.content__down {
+  margin-top: 100px;
+}
+
+.arrow {
+  margin-left: 3px;
+}
+
+.our__team {
+  max-width: 100%;
+  min-height: 100%;
+  margin-top: 100px;
+}
+
+h3 {
+  font-family: Montserrat, Verdana, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 54px;
+  text-transform: uppercase;
+  color: #314a5b;
+}
+
+.team__title-text {
+  color: #9aa0ab;
+  font-family: OpenSans, Verdana, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.team {
+  max-width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.team__content {
+  flex: 1;
+  min-height: 130px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.team__person {
+  max-width: 150px;
+  min-height: 100%;
+}
+
+.team__photo {
+  width: 130px;
+  height: 130px;
+  box-shadow: inset 2.5px 4.3px 9px rgba(1, 1, 1, 0.06);
+  border-radius: 128px;
+  margin-right: 20px;
+}
+
+.team__photo-joey {
+  background: url("../img/Joey.png") white no-repeat center center;
+}
+
+.team__photo-matt {
+  background: url("../img/matt.png") white no-repeat center center;
+}
+
+.team__photo-mike {
+  background: url("../img/mike.png") white no-repeat center center;
+}
+
+h5 {
+  color: #314a5b;
+  font-family: Montserrat, Verdana, sans-serif ;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+
+.profession {
+  color: #f0454c;
+  font-family: OpenSans, Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.professional__skill {
+  color: #9aa0ab;
+  font-family: OpenSans, Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 5px;
+}
+
+.more-team {
+  text-align: right;
+  display: block;
+  margin-top: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

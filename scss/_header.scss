@@ -1,0 +1,143 @@
+.head {
+  max-width: 100%;
+  z-index: 8;
+  min-height: 1070px;
+  position: relative;
+}
+
+.clear-fix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.logo {
+  width: 140px;
+  height: 74px;
+  background-color: #fa5c65;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  position: relative;
+  float: left;
+  box-shadow: inset rgba(0, 0, 0, .6) 0 -3px 8px,
+  inset rgba(252, 255, 255, .7) 0 3px 8px,
+  rgba(0, 0, 0, .8) 0 3px 8px -3px;
+}
+
+.logo__text {
+  color: white;
+  position: absolute;
+  top: 25px;
+  left: 16px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 64px;
+  font-family: Domine, Verdana, sans-serif;
+}
+
+.logo__dot {
+  color: #314a5b;
+}
+
+.head__menu {
+  max-width: 100%;
+  min-height: 100%;
+}
+
+.menu {
+  font-size: 0;
+}
+
+.menu__item {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 85px;
+  text-transform: uppercase;
+  color: #263742;
+  font-family: Montserrat, Verdana, sans-serif;
+}
+
+.menu {
+  float: right;
+  .menu__item {
+    display: inline-block;
+  }
+}
+
+.menu__item {
+  margin-right: 20px;
+}
+
+.menu__link {
+  color: #263742;
+}
+
+.menu__link:hover {
+  color: #fa5c65;
+}
+
+.menu__link-tvi,
+.menu__link-face {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+.menu__link-tvi {
+  background: url("../img/twitter-logo-silhouette(r).svg") no-repeat;
+  background-size: 20px 20px;
+}
+
+.menu__link-face {
+  background: url("../img/facebook-logo(r).svg") no-repeat;
+  background-size: 20px 20px;
+}
+
+.header__devis {
+  min-height: 142px;
+  margin-top: 350px;
+  max-width: 512px;
+}
+
+.header__title {
+  font-family: Montserrat, Verdana, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 53px;
+  text-transform: uppercase;
+  color: #314a5b;
+}
+
+.title__text {
+  color: #314a5b;
+  font-family: OpenSans, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.title__dot {
+  color: #fa5c65;
+}
+
+.head__but {
+  display: block;
+  width: 171px;
+  height: 64px;
+  background-color: #fa5c65;
+  border-radius: 7px;
+  text-align: center;
+  color: white;
+  font-family: OpenSans, Verdana, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 64px;
+  margin-top: 40px;
+  box-shadow: inset rgba(0, 0, 0, .6) 0 -3px 8px,
+  inset rgba(252, 255, 255, .7) 0 3px 8px,
+  rgba(0, 0, 0, .8) 0 3px 8px -3px;
+}
+
+.head__but:hover {
+  background-color: #f0454c;
+}
